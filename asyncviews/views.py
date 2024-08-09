@@ -32,8 +32,8 @@
 #    return HttpResponse("Blocking HTTP request")
 
 import asyncio
-import httpx # type: ignore
-from django.http import HttpResponse # type: ignore
+import httpx
+from django.http import HttpResponse
 
 
 async def http_call_async():
